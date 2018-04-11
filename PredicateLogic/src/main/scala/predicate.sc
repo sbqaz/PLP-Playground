@@ -131,5 +131,7 @@ object week7_lec {
   val Range1 = concat(point(2), range(5,7))
   val Range2 = range(1,5)
   val Predicate3 = forall(Range1, forall(Range2, Predicate2))
+
+
 }
 
